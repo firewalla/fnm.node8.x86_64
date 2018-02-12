@@ -1,0 +1,51 @@
+{
+  "name": "libnmap",
+  "version": "0.2.33",
+  "description": "libnmap for node.js",
+  "author": "Jason Gerfen <jason.gerfen@gmail.com>",
+  "keywords": [
+    "nmap",
+    "libnmap",
+    "node-libnmap",
+    "nmap host discovery",
+    "threaded nmap scanner",
+    "network host discovery",
+    "host operating system discovery",
+    "port scanner",
+    "network scanner",
+    "services enumeration",
+    "host fingerprinting",
+    "service auditing",
+    "IPv6 host discovery",
+    "network",
+    "scanner",
+    "security"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jas-/node-libnmap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jas-/node-libnmap/issues"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "./node_modules/.bin/mocha -R spec"
+  },
+  "dependencies": {
+    "async": "^2.0.0-rc.5",
+    "caller-id": "~0.1.0",
+    "deepmerge": "~0.2.10",
+    "hasbin": "^1.2.3",
+    "ip-address": "^5.8.0",
+    "netmask": "^1.0.6",
+    "xml2js": "~0.4.13"
+  },
+  "devDependencies": {
+    "mocha": "latest",
+    "chai": "latest"
+  },
+  "license": "MIT",
+  "_from": "libnmap@0.2.33",
+  "_resolved": "http://registry.npm.taobao.org/libnmap/download/libnmap-0.2.33.tgz"
+}

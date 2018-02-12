@@ -1,0 +1,31 @@
+{
+  "name": "os-utils",
+  "version": "0.0.14",
+  "description": "an operating-system utility library",
+  "url": "http://oscar-mejia.com",
+  "main": "./lib/osutils.js",
+  "directories": {
+    "test": "./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oscmejia/os-utils"
+  },
+  "keywords": [
+    "os",
+    "operating system",
+    "server",
+    "memory",
+    "cpu",
+    "monitor",
+    "stats",
+    "harddrive"
+  ],
+  "author": {
+    "name": "Oscar Mejia",
+    "email": "oscmejia@vovsolutions.com"
+  },
+  "license": "MIT",
+  "_from": "os-utils@0.0.14",
+  "_resolved": "http://registry.npm.taobao.org/os-utils/download/os-utils-0.0.14.tgz"
+}

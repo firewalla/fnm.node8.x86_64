@@ -1,0 +1,54 @@
+{
+  "name": "geoip-country-only",
+  "version": "1.1.8",
+  "description": "Stripped down version of geoip, supporting only country lookup. Based on arve0 patch.",
+  "keywords": [
+    "geo",
+    "geoip",
+    "ip",
+    "ipv4",
+    "geolookup",
+    "maxmind",
+    "geolite",
+    "country"
+  ],
+  "homepage": "https://github.com/strml/node-geoip-country-only",
+  "author": "Philip Tellis <philip@bluesmoon.info> (http://bluesmoon.info/)",
+  "files": [
+    "lib/",
+    "data/",
+    "test/",
+    "scripts/"
+  ],
+  "main": "lib/geoip.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/strml/node-geoip-country-only.git"
+  },
+  "engines": {
+    "node": ">=0.6.3"
+  },
+  "scripts": {
+    "test": "nodeunit --reporter=minimal test/tests.js",
+    "updatedb": "node scripts/updatedb.js",
+    "updatedb-debug": "node scripts/updatedb.js debug",
+    "postinstall": "npm run-script updatedb"
+  },
+  "dependencies": {
+    "async": "~1.5.2",
+    "colors": "1.1.2",
+    "glob": "~7.0.3",
+    "iconv-lite": "~0.4.13",
+    "lazy": "~1.0.11",
+    "rimraf": "~2.5.2",
+    "unzip": "~0.1.11"
+  },
+  "config": {
+    "update": true
+  },
+  "devDependencies": {
+    "nodeunit": "~0.9.1"
+  },
+  "_from": "geoip-country-only@1.1.8",
+  "_resolved": "http://registry.npm.taobao.org/geoip-country-only/download/geoip-country-only-1.1.8.tgz"
+}
