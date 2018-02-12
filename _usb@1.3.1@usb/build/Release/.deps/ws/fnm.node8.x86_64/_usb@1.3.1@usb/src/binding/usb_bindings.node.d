@@ -1,0 +1,1 @@
+cmd_/ws/fnm.node8.x86_64/_usb@1.3.1@usb/src/binding/usb_bindings.node := rm -rf "/ws/fnm.node8.x86_64/_usb@1.3.1@usb/src/binding/usb_bindings.node" && cp -af "Release/usb_bindings.node" "/ws/fnm.node8.x86_64/_usb@1.3.1@usb/src/binding/usb_bindings.node"
